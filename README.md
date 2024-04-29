@@ -14,10 +14,10 @@ where $C(x, y, t)$ is some scalar concentration and $(u,v)$ is the 2D velocity. 
 
 A numerical method to observe the evolution of this differential equation is the Lax-Wendro scheme. For discrete time steps and a discretized 2D domain, we will represent $C(i, j, n)$ as $C^n_{i, j}$. Given $C^n$, the Lax method gives an estimation for $C^{n+1}$ given by
 
-$$ C^{n+1}_{i,j} = \frac{1}{4} ( C^n_{i-1, j} + C^n_{i+1, j} + C^n_{i, j-1} + C^n_{i, j+1} ) 
+<img src="https://render.githubusercontent.com/render/math?math=C^{n%2B1}_{i,j} = \frac{1}{4} ( C^n_{i-1, j} %2B C^n_{i%2B1, j} %2B C^n_{i, j-1} %2B C^n_{i, j%2B1} ) 
 - \frac{\Delta t}{2 \Delta x} 
-[ u (C^n_{i+1, j} - C^n_{i-1, j}) 
-+ v (C^n_{i, j+1} - C^n_{i, j-1}) ]$$
+[ u (C^n_{i%2B1, j} - C^n_{i-1, j}) 
+%2B v (C^n_{i, j%2B1} - C^n_{i, j-1}) ]">
 
 ## Execution Parameters
 
