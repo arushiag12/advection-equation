@@ -1,4 +1,4 @@
-# Advection Equation Evolution Using Distributed-Memory Parallelism
+# PDE Evolution Using Distributed-Memory Parallelism
 
 ## Project Overview
 
