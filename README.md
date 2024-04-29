@@ -33,7 +33,7 @@ The rest of the parameters are intialized to be:
 - $L = 1.0$ (Length of domain in each dimension)
 - $N = 4000$ (the number of discrete slices the domain is sliced into in each direction) 
 - $T = 1.0$ (total amount of time the solution is evolved for) 
-- del_t $ = 1.25e^{-4}$ (the size of each discrete time step)
+- del_t $=1.25e^{-4}$ (the size of each discrete time step)
 - $u = \sqrt{2} y$ (the $x$-component of the velocity)
 - $v = -\sqrt{2} x$ (the $y$-component of the velocity)
 
