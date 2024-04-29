@@ -1,4 +1,4 @@
-# Advection Equation Evolution Using Distributed-Memory Parallel Lax
+# Advection Equation Evolution Using Distributed-Memory Parallelism
 
 ## Project Overview
 
